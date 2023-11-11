@@ -1,7 +1,7 @@
 
 import { Container , Row , Col} from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/header-Img.png";
 import { useEffect, useState } from "react";
 
 export const Banner =() =>{
@@ -45,16 +45,10 @@ export const Banner =() =>{
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
-                        <span className="tagline">Welcom to my Portfolio</span>
+                        <span className="tagline">Bienvenue dans mon Portfolio</span>
                         <h1>{` Hi I'm webdecoded `} <span className="wrap">{text}</span></h1>
-                        <p>Le Lorem Ipsum est simplement du faux texte
-                             employé dans la composition et la mise en 
-                             page avant impression. Le Lorem Ipsum est le 
-                             faux texte standard de l'imprimerie depuis les 
-                             années 1500, quand un imprimeur anonyme assembla
-                              ensemble des morceaux de texte pour réaliser un
-                               livre spécimen de polices de texte.</p>
-                        <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/></button>
+                        <p>Développeur de logiciel avec des compétences solides en résolution de problèmes et une expériences  reconnue dans la création et la conception de logiciel dans un environnement d’essai ..</p>
+                        <button onClick={() => console.log('connect')}>Connectons-nous <ArrowRightCircle size={25}/></button>
                     </Col>
                     <Col xs={12} md={6} xl={5} >
                         <img src={headerImg} alt="Headder Img"/>

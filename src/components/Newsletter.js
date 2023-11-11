@@ -23,8 +23,8 @@ export const Newsletter = ({onValidated , status, message}) => {
         <div className="newsletter-bx width-100">
             <Row>
                 <Col lg={12} md={8} xl={5} className="full-width">
-                    <h3>Subscribe to our Newsletter</h3>
-                    {status === 'sending' && <Alert>Sending...</Alert>}
+                    <h3>Abonnez-vous à notre Newsletter </h3>
+                    {status === 'sending' && <Alert>Envoyer...</Alert>}
                     {status === 'error' && <Alert variant="danger">{message}</Alert>}
                     {status === 'success' && <Alert variant="success">{message}</Alert>}
                 </Col>
@@ -32,7 +32,7 @@ export const Newsletter = ({onValidated , status, message}) => {
                     <form onSubmit={handleSubmit}>
                         <div className="new-email-bx">
                             <input value={email} type="email" onChange={(e) => setEmail(e.target.value)} placeholder="Email Address"/>
-                            <button type="submit">Submit</button>
+                            <button type="submit">Envoyer</button>
                         </div>
                     </form>
                 </Col>

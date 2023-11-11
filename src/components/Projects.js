@@ -50,11 +50,11 @@ export const Projects = () => {
                 <Col>
             
                 <h2>
-                    Projects
+                    Projets
                 </h2>
-                <p>Le Lorem Ipsum est simplement du faux texte
+                {/* <p>Le Lorem Ipsum est simplement du faux texte
                     employé dans la composition et la mise en 
-                    page avant impression.</p>
+                    page avant impression.</p> */}
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                         <Nav variant="pills" defaultActiveKey="/home" className="nav-pills justify-center align-items-center  mb-5" id="pills-tab">
                             <Nav.Item>
@@ -84,8 +84,8 @@ export const Projects = () => {
                                             }
                                         </Row>
                                 </Tab.Pane>
-                                <Tab.Pane eventKey="second">Lorem Ipsum</Tab.Pane>
-                                <Tab.Pane eventKey="third">Lorem Ipsum</Tab.Pane>
+                                <Tab.Pane eventKey="second"></Tab.Pane>
+                                <Tab.Pane eventKey="third"></Tab.Pane>
                             </Tab.Content>
                     </Tab.Container>
                    

@@ -35,7 +35,7 @@ export const Skills =  () => {
                     <Col>
                         <div className="skill-bx">
                             <h2>
-                                Skills
+                              Mes  Compétences
                             </h2>
                             <p>Le Lorem Ipsum est simplement du faux texte
                              employé dans la composition et la mise en 
@@ -43,19 +43,19 @@ export const Skills =  () => {
                              <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
                                     <img src={meter1} alt="Image"/>
-                                    <h5>Web Development</h5>
-                                </div>
-                                <div className="item">
-                                    <img src={meter2} alt="Image"/>
-                                    <h5>Brand Identify</h5>
+                                    <h5>HTML/CSS</h5>
                                 </div>
                                 <div className="item">
                                     <img src={meter3} alt="Image"/>
-                                    <h5>Logo Design</h5>
+                                    <h5>Bootstrap</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter1} alt="Image"/>
-                                    <h5>Web Development</h5>
+                                    <img src={meter3} alt="Image"/>
+                                    <h5>Javascript</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={meter3} alt="Image"/>
+                                    <h5>React-Js</h5>
                                 </div>
                              </Carousel>
                         </div>
