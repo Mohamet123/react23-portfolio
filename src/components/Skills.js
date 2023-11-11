@@ -37,7 +37,7 @@ export const Skills =  () => {
                             <h2>
                               Mes  Compétences
                             </h2>
-                            <p>Le Lorem Ipsum est simplement du faux texte
+                            <p>Le LoRem Ipsum est simplement du faux texte
                              employé dans la composition et la mise en 
                              page avant impression.</p>
                              <Carousel responsive={responsive} infinite={true} className="skill-slider">
